@@ -1,23 +1,44 @@
-🗣️ Text-to-Speech Converter:
+# 🗣️ Text-to-Speech Converter
 
-A simple web app that lets you type in any text and hear it spoken out loud using your browser’s built-in voice.
+A simple and interactive browser-based **Text-to-Speech Converter** that allows users to enter text and hear it spoken aloud using the **Web Speech API**. This project was developed to explore DOM manipulation, event handling, and working with browser-native APIs using vanilla HTML, CSS, and JavaScript.
 
-Tech Stack:
 
-HTML5 – Structuring the web page
 
-CSS3 – Responsive and modern UI styling
+ 📌 Project Purpose
 
-JavaScript – Implementing speech synthesis using the Web Speech API
+The goal of this project was to build a lightweight, responsive web application that helps users convert any typed text into audible speech. This not only supports accessibility but also demonstrates how modern web APIs can be used to enhance user interaction in web development.
 
-Key Features:
+ ✅ Features
 
-✅ Simple and responsive design that works well on all screen sizes
+- 🎤 Converts text to speech using the Web Speech API  
+- 🖱️ Responsive and user-friendly UI  
+- 🚫 Input validation with error feedback  
+- 🎨 Styled using CSS Flexbox and custom hover effects  
+- 🧠 Fully built using HTML, CSS, and JavaScript — no frameworks
 
-🔊 Easily turns typed text into speech using your browser’s built-in voice
+🛠️ Tools & Technologies
 
-⚠️ Gives helpful messages when no text is entered
+- **HTML** – Page structure  
+- **CSS** – Styling and responsive layout  
+- **JavaScript** – Logic and DOM manipulation  
+- **Web Speech API** – SpeechSynthesis for voice playback
 
-🔄 Updates the button label while the voice is playing for better feedback
 
-🌐 Works smoothly on all modern browsers—no extra software or libraries needed
+👨‍💻 How It Works
+
+1. User enters text into the textarea.
+2. Clicks the **Play Converted Sound** button.
+3. The browser speaks the entered text out loud.
+4. If the textarea is empty, an error message is shown to prompt the user to enter text.
+
+
+
+📈 Outcomes
+
+This project helped reinforce the following skills:
+- ✅ DOM manipulation using JavaScript
+- ✅ Event handling (button clicks)
+- ✅ Using browser APIs (`speechSynthesis`)
+- ✅ Validating user input and giving visual feedback
+- ✅ Designing accessible, interactive web interfaces
+
